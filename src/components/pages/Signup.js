@@ -18,11 +18,10 @@
 
 // export default Signup; 
 
-// SignUp.js
 
 // import React, { useState } from 'react';
 
-// const SignUp = () => {
+// const Signup = () => {
 //   const [formData, setFormData] = useState({
 //     username: '',
 //     email: '',
@@ -79,12 +78,12 @@
 //   );
 // };
 
-// export default SignUp;
+// export default Signup;
 
 
 import React from 'react';
 import '../../App.css';
 
 export default function Signup() {
-  return <h1 className='sign-up'>Sign Up</h1>;
+  return (<h1 className='sign-up'>Sign Up</h1>);
 }
