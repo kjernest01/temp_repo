@@ -1,5 +1,4 @@
 // import React from 'react'
-// import './src/component/pages/Signup.css'
 
 // const Signup = () => {
 //     return (
@@ -84,6 +83,10 @@
 import React from 'react';
 import '../../App.css';
 
-export default function Signup() {
-  return (<h1 className='sign-up'>Sign Up</h1>);
+function Signup() {
+  return (
+    <h1 className='sign-up'>Sign Up Page</h1>
+  );
 }
+
+export default Signup;
