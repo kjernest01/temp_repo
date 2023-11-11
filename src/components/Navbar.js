@@ -1,44 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
-
-
-// function Navbar (){
-//   return(
-//     <>
-//       <nav className="navbar">
-//         <div className="navbar-container">
-//           <Link to="/" className="navbar-logo">
-//             PriceTracker
-//           </Link>
-//           {/* <div className="menu-icon" onClick>
-//             <i = className={click}/>
-//           </div> */}
-//           <ul className="nav-menu">
-//             <li className="nav-item">
-//               <Link to="/" className="nav-links">
-//                 Home
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link to="/trends" className="nav-links">
-//                 Trends
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link to="/signup" className="nav-links">
-//                 Sign Up
-//               </Link>
-//             </li>
-//           </ul>
-//         </div>
-//       </nav>
-//     </>
-//   )
-// }
-
-// export default Navbar;
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -105,4 +68,4 @@ function Navbar() {
   );
 }
 
-export default Navbar; 
+export default Navbar;
