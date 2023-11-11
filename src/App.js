@@ -16,7 +16,7 @@ function App() {
           {/* <Route path='/' exact component={Home} />
           <Route path='/trends' component={Trends} />
           <Route path='/products' component={Products} /> 
-          <Route path='/sign-up' component={Signup} /> */}
+          <Route path='/signup' component={Signup} /> */}
         </Routes>
       </Router>
     </>
