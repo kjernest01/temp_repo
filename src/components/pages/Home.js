@@ -4,7 +4,9 @@ import '../../App.css';
 function Home() {
   return (
     <>
-      <h1>HOME PAGE</h1>
+      <h1 className='d-flex justify-content-center bg-primary vh-100'>
+        Welcome to PriceTracker
+      </h1>
     </>
   );
 }

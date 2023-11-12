@@ -4,7 +4,9 @@ import '../../App.css';
 function Trends() {
   return (
     <>
-    <h1>TRENDS PAGE</h1>
+    <h1 className='d-flex justify-content-center bg-primary vh-100'>
+      TRENDS PAGE
+      </h1>
     </>
   );
 }
