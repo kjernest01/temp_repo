@@ -37,7 +37,10 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link
+                to='/'
+                className='nav-links'
+                onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
@@ -61,6 +64,10 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
