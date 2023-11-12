@@ -83,9 +83,22 @@
 import React from 'react';
 import '../../App.css';
 
+// function Signup() {
+//   return (
+//     <h1 className='sign-up'>Sign Up Page</h1>
+//   );
+// }
+
 function Signup() {
   return (
-    <h1 className='sign-up'>Sign Up Page</h1>
+    <>
+      <header>
+        <h1>Sign Up</h1>
+      </header>
+      <main>
+        {/* Sign up form goes here */}
+      </main>
+    </>
   );
 }
 
