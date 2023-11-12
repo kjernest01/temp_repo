@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './components/pages/Home';
 import Trends from './components/pages/Trends';
-import Search from './components/pages/Search';
+import Search from './components/pages/SearchBar';
 import Signup from './components/pages/Signup';
 import Login from './components/pages/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
