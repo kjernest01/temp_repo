@@ -8,8 +8,11 @@ import {
 } from "react-router-dom";
 import Home from './components/pages/Home';
 import Trends from './components/pages/Trends';
-import Signup from './components/pages/Signup';
 import Search from './components/pages/Search';
+import Signup from './components/pages/Signup';
+import Login from './components/pages/Login';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
  
 function App() {
     return (
@@ -18,14 +21,9 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/trends" element={<Trends />} />
-                <Route
-                    path="/Search"
-                    element={<Search />}
-                />
-                <Route
-                    path="/sign-up"
-                    element={<Signup />}
-                />
+                <Route path="/Search" element={<Search />}/>
+                <Route path="/sign-up" element={<Signup />}/>
+                <Route path="/login" element={<Login />}/>
             </Routes>
         </Router>
     );
