@@ -17,4 +17,12 @@ const Search = () => {
   );
 };
 
+// function Search (){
+//   return(
+//     <>
+//     <h1>SEARCH RESULTS</h1>
+//     </>
+//   );
+// }
+
 export default Search;
