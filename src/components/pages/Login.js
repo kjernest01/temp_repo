@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 function Login() {
@@ -17,8 +17,10 @@ function Login() {
                         <input type="password" placeholder='Enter Password' className='form-control rounded-0'/>
                     </div>
                     <button className='btn btn-success w-100 rounded-0'>Log In</button>
-                    <p>By signing up, you are agreeing to PriceTracker's terms and policies</p>
+                    {/* <p>By signing up, you are agreeing to PriceTracker's terms and policies</p> */}
+                    <Link to='/sign-up'>
                     <button to="/signup" className='btn btn-default border w-100 bg-light rounded-0 text-decoration-none'>Sign Up</button>
+                    </Link>
                 </form>
             </div>
         </div>

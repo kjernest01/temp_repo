@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Signup() {
     return (
@@ -21,7 +22,9 @@ function Signup() {
 
                 <button className='btn btn-success w-100 rounded-0'>Sign Up</button>
                 <p>By signing up, you are agreeing to PriceTracker's terms and policies</p>
+                <Link to='/login' >
                 <button to="/login" className='btn btn-default border w-100 bg-light rounded-0 text-decoration-none'>Log In</button>
+                </Link>
             </form>
         </div>
     </div>
