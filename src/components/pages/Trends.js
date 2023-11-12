@@ -4,7 +4,7 @@ import '../../App.css';
 function Trends() {
   return (
     <>
-
+    <h1>TRENDS PAGE</h1>
     </>
   );
 }
