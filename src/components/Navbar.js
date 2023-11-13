@@ -71,7 +71,6 @@ function Navbar() {
             </Link>
           </form>
           {button && <Button buttonStyle='btn-outline-success'>SIGN UP</Button>}
-          {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
       </nav>
     </>
