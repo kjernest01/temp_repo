@@ -12,15 +12,19 @@ export const SearchResultsList = () => {
     ];
 
     return (
-        <div className="results-list">
-            <h1>Results</h1>
-            {products.map(product => (
-                <div key={product.id} className="product-entry">
-                    <h3>{product.name}</h3>
-                    <p>Price: {product.price}</p>
+        <>
+            <h1 className='d-flex justify-content-center bg-primary vh-20'>Search Results</h1>
+            <body>
+                <div className="results-list">
+                    {products.map(product => (
+                        <div key={product.id} className="product-entry">
+                            <h3>{product.name}</h3>
+                            <p>Price: {product.price}</p>
+                        </div>
+                    ))}
                 </div>
-            ))}
-        </div>
+            </body>
+        </>
     );
 };
 
