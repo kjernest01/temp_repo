@@ -69,6 +69,7 @@
 
 .nav-links-mobile {
   display: none;
+  color: #fff;
 }
 
 .menu-icon {
@@ -160,5 +161,4 @@
     width: 200px;
     border: 1px solid white;
   }
-  
 }

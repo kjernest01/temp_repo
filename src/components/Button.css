@@ -8,13 +8,15 @@
   border-radius: 2px;
   /* outline: none;
   border: none; */
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .btn--primary {
   background-color: var(--primary);
-  color: #ffff;
-  border: 1px solid var(--primary);
+  color: #fff;
+  border-style: hidden;
+  border-bottom-style: solid;
+  border-radius: 2px;
 }
 
 .btn--outline {
@@ -38,7 +40,9 @@
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
-  background: #fff;
-  color: #242424;
+  /* background: #fff; */
+  border-color: #fff;
+  border-bottom-width: 10px;
+  /* color: #000; */
   transition: 250ms;
-} 
+}
